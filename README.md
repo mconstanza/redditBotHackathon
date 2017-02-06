@@ -54,6 +54,28 @@ From the root of the app. type 'npm install' to install [snoowrap](https://githu
 
 You are now ready to begin coding in bot.js!
 
+Tips
+====
+
+-	Don't feel obliged to make a bot that just reposts things. There are bots that respond to specific commands, post relevant information, make poems--pretty much anything you can think of.
+
+-	The Reddit API allows access to pretty much anything that is publicly posted on Reddit or is part of your own account.
+
+-	Be careful not to make too many requests or posts, and watch out for odd interactions. My first bot ended up triggering another bot that tracks cross posting and filled lots of threads with unncessary spam. People were not happy with me.
+
+-	Feel free to mix APIs if you are comfortable working with them. It wouldn't take much to have a bot that pulls up wikipedia information or posts to twitter.
+
+Resources
+=========
+
+[Subreddit for my bot and this hackathon](https://www.reddit.com/r/RCBRedditBot/)
+
+[Snoowrap Docs](https://not-an-aardvark.github.io/snoowrap/)
+
+[Reddit API Docs](https://www.reddit.com/dev/api/)
+
+[Bot Subreddit](https://www.reddit.com/r/botwatch/)
+
 Deployment
 ==========
 
