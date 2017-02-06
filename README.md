@@ -14,15 +14,24 @@ Go to [my bot repo](https://github.com/mconstanza/redditBotHackathon) and fork a
 
 ![cloning a github repo](screenshots/gitfork.png)
 
-Set up your heroku. Assuming you already have Heroku CLI tools, you can just go into the root of your application from your bash/command prompt and type 'heroku create APPNAME'. Note the url of your app for the next step. You can later deploy here by git-adding, git-committing, and typing 'git push heroku master'.
+Set up your heroku.
+-------------------
+
+Assuming you already have Heroku CLI tools, you can just go into the root of your application from your bash/command prompt and type 'heroku create APPNAME'. Note the url of your app for the next step. You can later deploy here by git-adding, git-committing, and typing 'git push heroku master'.
 
 [Heroku creation instructions](https://devcenter.heroku.com/articles/creating-apps)
+
+Reddit Stuff
+------------
 
 [Create a reddit account](https://www.reddit.com/). If you don't have an account, you will need one to use a bot. If you do have one, you may want to create one just for this bot, as bots are typically users in and of themselves and many people want to keep their reddit usernames private.
 
 Register an application on [Reddit's Dev page](https://ssl.reddit.com/prefs/apps). Name it, write a short description, and select 'script' for the type of bot. The 'about' url should link to your repo and the 'redirect' uri should link to your heroku page. Once you create the app, take note of the client ID and client secret, as you will need them for the next step.
 
 ![registering a bot](screenshots/registerbot.png)
+
+Config.js
+---------
 
 In the root of your app, create a file called 'config.js'. Add your clientId, clientSecret, username, and password as a JSON object to be exported. Example given below.
 
@@ -66,7 +75,10 @@ git commit -m "MESSAGE"
 git push heroku master
 ```
 
-Add ENV variables: The base code makes use of ENV variables to handle our secure information. In your heroku app settings, click "Reveal Config Vars". Then, add the four variables below and their respecitve values from your config.js
+Add ENV variables
+-----------------
+
+The base code makes use of ENV variables to handle our secure information. In your heroku app settings, click "Reveal Config Vars". Then, add the four variables below and their respecitve values from your config.js
 
 ![ENV vars](screenshots/ENVvariables.png)
 
