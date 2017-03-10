@@ -68,7 +68,7 @@ Tips
 Resources
 =========
 
-[Subreddit for my bot and this hackathon](https://www.reddit.com/r/RCBRedditBot/)
+[Subreddit for this hackathon](https://www.reddit.com/r/RedditBotHackathon/)
 
 [Snoowrap Docs](https://not-an-aardvark.github.io/snoowrap/)
 
